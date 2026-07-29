@@ -32,9 +32,10 @@
       "camera": {
         "type": "perspective",
         "xr": {
-          "desktop": "3D",
-          "xrCameraType": "3dOnly",
-          "headset": "disabled"
+          "desktop": "disabled",
+          "xrCameraType": "world",
+          "headset": "disabled",
+          "phone": "AR"
         }
       },
       "components": {},
@@ -93,9 +94,42 @@
     "58332d42-a02b-4d84-8338-8a5c72f1b001": {
       "id": "58332d42-a02b-4d84-8338-8a5c72f1b001",
       "position": [
-        -0.08964686370049679,
+        0.665679384704148,
         0,
-        -0.5006853039595116
+        -5.690552506201019
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        1,
+        1,
+        1
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "3963ea35-4570-4a09-83fb-f7f9dcead736",
+      "components": {},
+      "gltfModel": {
+        "src": {
+          "type": "asset",
+          "asset": "assets/model.glb"
+        },
+        "animationClip": "",
+        "loop": true
+      },
+      "name": "model.glb",
+      "order": 3.248974607240127
+    },
+    "3963ea35-4570-4a09-83fb-f7f9dcead736": {
+      "id": "3963ea35-4570-4a09-83fb-f7f9dcead736",
+      "position": [
+        0,
+        0,
+        0
       ],
       "rotation": [
         0,
@@ -112,23 +146,53 @@
       "material": null,
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "components": {},
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/model.glb"
-        },
-        "animationClip": "",
-        "loop": true
+      "name": "Image Target",
+      "imageTarget": {
+        "name": ""
       },
-      "name": "model.glb",
-      "order": 3.248974607240127
+      "order": 4.556097888091715
+    },
+    "58c77be7-9f11-48ad-901b-5a7b41f10968": {
+      "id": "58c77be7-9f11-48ad-901b-5a7b41f10968",
+      "position": [
+        0.14643565113741586,
+        1.3258327732538666,
+        -2.2014209174498127
+      ],
+      "rotation": [
+        4.329780281177466e-17,
+        -0.7071067811865476,
+        0.7071067811865475,
+        4.329780281177467e-17
+      ],
+      "scale": [
+        4.600000000000009,
+        4.600000000000009,
+        4.600000000000009
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "Targeta-1",
+      "imageTarget": {
+        "name": "Targeta-1"
+      },
+      "order": 5.720761807207778
     }
   },
   "spaces": {
     "88453035-dc0f-486d-868a-8ff7c2fda864": {
       "id": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "name": "Default Space",
-      "activeCamera": "a608ddd9-9379-464d-966f-5d8d8674c83c"
+      "activeCamera": "a608ddd9-9379-464d-966f-5d8d8674c83c",
+      "sky": {
+        "type": "gradient",
+        "colors": [
+          "#bb00ff",
+          "#08061F"
+        ]
+      }
     }
   },
   "entrySpaceId": "88453035-dc0f-486d-868a-8ff7c2fda864"
