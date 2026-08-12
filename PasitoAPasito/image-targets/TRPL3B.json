@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 262,
+    "left": 0,
+    "width": 1025,
+    "height": 1367,
+    "isRotated": true,
+    "originalWidth": 1025,
+    "originalHeight": 1890
+  },
+  "imagePath": "image-targets/TRPL3B_luminance.png",
+  "metadata": null,
+  "name": "TRPL3B",
+  "resources": {
+    "originalImage": "TRPL3B_original.png",
+    "croppedImage": "TRPL3B_cropped.png",
+    "thumbnailImage": "TRPL3B_thumbnail.png",
+    "luminanceImage": "TRPL3B_luminance.png"
+  },
+  "created": 1786555206669,
+  "updated": 1786555215609
+}
