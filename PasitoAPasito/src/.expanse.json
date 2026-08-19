@@ -190,7 +190,7 @@
           "type": "asset",
           "asset": "assets/chitoBackflip.glb"
         },
-        "animationClip": "",
+        "animationClip": "backflip",
         "loop": true
       },
       "name": "chitoBackflip.glb",
