@@ -1,7 +1,7 @@
 const onxrloaded = () => {
   XR8.XrController.configure({
     imageTargetData: [
-      require('../image-targets/Targeta-1.json')
+      require('../image-targets/TRPL3B.json')
     ],
   })
 }
