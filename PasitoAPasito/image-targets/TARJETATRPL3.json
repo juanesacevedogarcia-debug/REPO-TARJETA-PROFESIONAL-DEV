@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 80,
+    "left": 0,
+    "width": 602,
+    "height": 803,
+    "isRotated": true,
+    "originalWidth": 602,
+    "originalHeight": 1025
+  },
+  "imagePath": "image-targets/TARJETATRPL3_luminance.jpg",
+  "metadata": null,
+  "name": "TARJETATRPL3",
+  "resources": {
+    "originalImage": "TARJETATRPL3_original.jpg",
+    "croppedImage": "TARJETATRPL3_cropped.jpg",
+    "thumbnailImage": "TARJETATRPL3_thumbnail.jpg",
+    "luminanceImage": "TARJETATRPL3_luminance.jpg"
+  },
+  "created": 1787154953490,
+  "updated": 1787154981335
+}

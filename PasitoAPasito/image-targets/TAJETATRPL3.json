@@ -1,0 +1,23 @@
+{
+  "type": "PLANAR",
+  "properties": {
+    "top": 80,
+    "left": 0,
+    "width": 602,
+    "height": 803,
+    "isRotated": true,
+    "originalWidth": 602,
+    "originalHeight": 1025
+  },
+  "imagePath": "image-targets/Tarjetas-13_luminance.jpg",
+  "metadata": null,
+  "name": "Tarjetas-13",
+  "resources": {
+    "originalImage": "Tarjetas-13_original.jpg",
+    "croppedImage": "Tarjetas-13_cropped.jpg",
+    "thumbnailImage": "Tarjetas-13_thumbnail.jpg",
+    "luminanceImage": "Tarjetas-13_luminance.jpg"
+  },
+  "created": 1787154182011,
+  "updated": 1787154193671
+}
