@@ -91,12 +91,12 @@
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "order": 0.6644431107322474
     },
-    "58332d42-a02b-4d84-8338-8a5c72f1b001": {
-      "id": "58332d42-a02b-4d84-8338-8a5c72f1b001",
+    "0478d7a3-421f-459c-a1e0-f045309b70f4": {
+      "id": "0478d7a3-421f-459c-a1e0-f045309b70f4",
       "position": [
-        0.665679384704148,
-        0,
-        -5.690552506201019
+        -0.03930710207376811,
+        -0.026111875704516313,
+        -1.8213016310425991
       ],
       "rotation": [
         0,
@@ -105,85 +105,312 @@
         1
       ],
       "scale": [
-        1,
-        1,
+        1.822222222222222,
+        0.6307692643340274,
+        1.8222223191871891
+      ],
+      "geometry": {
+        "type": "plane",
+        "width": 1,
+        "height": 1
+      },
+      "material": {
+        "type": "basic",
+        "color": "#FFFFFF",
+        "textureSrc": {
+          "type": "asset",
+          "asset": "assets/Teaser_Coast_to_Coast_N_no_Futuro.mp4"
+        }
+      },
+      "parentId": "ecca0fe8-420c-4cf8-8165-a39a81debbcc",
+      "components": {},
+      "name": "Video",
+      "order": 9.448546519304495
+    },
+    "ecca0fe8-420c-4cf8-8165-a39a81debbcc": {
+      "id": "ecca0fe8-420c-4cf8-8165-a39a81debbcc",
+      "position": [
+        0.6429360403680758,
+        2.6215106673481143,
+        -0.002565255748231186
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
         1
+      ],
+      "scale": [
+        4.5,
+        12.999999999999995,
+        4.5
       ],
       "geometry": null,
       "material": null,
       "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
       "components": {
-        "177ee406-839e-4c12-b833-78671f1682e6": {
-          "id": "177ee406-839e-4c12-b833-78671f1682e6",
-          "name": "look-at-animation",
+        "ab37a147-6330-48d3-a616-7f75f0092fc3": {
+          "id": "ab37a147-6330-48d3-a616-7f75f0092fc3",
+          "name": "pausar-video",
           "parameters": {
-            "target": {
+            "videoEntity": {
               "type": "entity",
-              "id": "5dd12cfa-c1d5-4c8d-9a23-397407e89504"
-            }
+              "id": "ecca0fe8-420c-4cf8-8165-a39a81debbcc"
+            },
+            "modelEntity": {
+              "type": "entity",
+              "id": "9184aa37-9b6b-4e92-8607-e58fc0b9ea0c"
+            },
+            "backgroundEntity": {
+              "type": "entity",
+              "id": "ecca0fe8-420c-4cf8-8165-a39a81debbcc"
+            },
+            "isPlaying": true
           }
         }
       },
-      "gltfModel": {
-        "src": {
-          "type": "asset",
-          "asset": "assets/model.glb"
-        },
-        "animationClip": "",
-        "loop": true
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 36,
+        "background": "#ad50ff",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 1,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "opacity": 0
       },
-      "name": "model.glb",
-      "order": 2.004635288814108
+      "name": "BotónVideo",
+      "order": 4.98108662472453
     },
-    "3963ea35-4570-4a09-83fb-f7f9dcead736": {
-      "id": "3963ea35-4570-4a09-83fb-f7f9dcead736",
+    "ce95c992-998f-4cef-be14-6117e35b3839": {
+      "id": "ce95c992-998f-4cef-be14-6117e35b3839",
       "position": [
-        0.022906289379452938,
-        -0.04363436737649118,
-        0.3396003595037689
+        -1.0813511229144934,
+        4.92560419767551,
+        -7.5000000000000036
       ],
       "rotation": [
-        -4.329780281177466e-17,
-        0.7071067811865476,
-        -0.7071067811865475,
-        -4.329780281177467e-17
+        0,
+        0,
+        0,
+        1
       ],
       "scale": [
-        3.4999999999999987,
-        3.4999999999999987,
-        3.4999999999999987
+        9.6,
+        9.6,
+        9.6
       ],
       "geometry": null,
       "material": null,
-      "parentId": "58332d42-a02b-4d84-8338-8a5c72f1b001",
-      "components": {},
-      "name": "Image Target",
-      "imageTarget": {
-        "name": "TARJETATRPL3"
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {
+        "7db94504-a53c-424d-aed9-2a064333c84c": {
+          "id": "7db94504-a53c-424d-aed9-2a064333c84c",
+          "name": "ScriptRedSocial",
+          "parameters": {
+            "url": "https://www.instagram.com/trpl3_/"
+          }
+        }
       },
-      "order": 4.556097888091715
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 36,
+        "background": "#ad50ff",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 0,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "flexWrap": "nowrap",
+        "backgroundSize": "contain"
+      },
+      "name": "instagram",
+      "order": 6.254620491674266
     },
-    "164e6473-5e60-4ba9-9850-cb83a3dedba0": {
-      "id": "164e6473-5e60-4ba9-9850-cb83a3dedba0",
+    "c55950c6-88d5-4844-80a3-3586c54f24c5": {
+      "id": "c55950c6-88d5-4844-80a3-3586c54f24c5",
+      "position": [
+        -0.823,
+        0,
+        -7.5000000000000036
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        4.700000000000002,
+        4.700000000000002,
+        4.700000000000002
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "ce95c992-998f-4cef-be14-6117e35b3839",
+      "components": {},
+      "name": "Icono",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "asset",
+          "asset": "assets/instagram-logo-png-transparent-background.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain",
+        "position": "absolute",
+        "top": "",
+        "left": "",
+        "bottom": "",
+        "right": ""
+      },
+      "order": 0.48177190473592796
+    },
+    "d484bbf8-803d-497f-bbec-c11965facc88": {
+      "id": "d484bbf8-803d-497f-bbec-c11965facc88",
+      "position": [
+        2.018648877085507,
+        4.92560419767551,
+        -7.5000000000000036
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        12.299999999999985,
+        12.299999999999985,
+        12.299999999999985
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {
+        "59139ee5-ec08-4e84-b4c1-e4c3c8d4b218": {
+          "id": "59139ee5-ec08-4e84-b4c1-e4c3c8d4b218",
+          "name": "ScriptRedSocial",
+          "parameters": {
+            "url": "https://soundcloud.com/c3rb3russs"
+          }
+        }
+      },
+      "ui": {
+        "type": "3d",
+        "width": 100,
+        "height": 36,
+        "background": "#ad50ff",
+        "borderRadius": 18,
+        "flexDirection": "row",
+        "backgroundOpacity": 0,
+        "padding": "10",
+        "gap": "6",
+        "alignItems": "center",
+        "justifyContent": "center",
+        "flexWrap": "nowrap",
+        "backgroundSize": "contain"
+      },
+      "name": "Hellgate",
+      "order": 7.610982574227058
+    },
+    "bab7c624-96a7-4ddb-ba42-5142e4f51c83": {
+      "id": "bab7c624-96a7-4ddb-ba42-5142e4f51c83",
+      "position": [
+        -0.823,
+        0,
+        -7.5000000000000036
+      ],
+      "rotation": [
+        0,
+        0,
+        0,
+        1
+      ],
+      "scale": [
+        4.700000000000002,
+        4.700000000000002,
+        4.700000000000002
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "d484bbf8-803d-497f-bbec-c11965facc88",
+      "components": {},
+      "name": "Icono (1)",
+      "ui": {
+        "width": 16,
+        "height": 16,
+        "image": {
+          "type": "asset",
+          "asset": "assets/SoundCloud-Logo.png"
+        },
+        "backgroundOpacity": 1,
+        "backgroundSize": "contain",
+        "position": "absolute",
+        "top": "",
+        "left": "",
+        "bottom": "",
+        "right": ""
+      },
+      "order": 0.48177190473592796
+    },
+    "55420e6f-7646-4d3b-a91f-10c4ae0f7083": {
+      "id": "55420e6f-7646-4d3b-a91f-10c4ae0f7083",
       "position": [
         0,
         0,
         0
       ],
       "rotation": [
-        0.6952662127734243,
-        -0.12885997584859143,
-        -0.12885997584859143,
-        0.6952662127734243
+        -4.3297802811774664e-17,
+        -0.7071067811865475,
+        0.7071067811865476,
+        -4.329780281177467e-17
       ],
       "scale": [
-        0.6,
-        0.6,
-        0.6
+        3.100000000000001,
+        3.100000000000001,
+        3.100000000000001
       ],
       "geometry": null,
       "material": null,
-      "parentId": "3963ea35-4570-4a09-83fb-f7f9dcead736",
+      "parentId": "88453035-dc0f-486d-868a-8ff7c2fda864",
+      "components": {},
+      "name": "Objetivo de la imagen",
+      "imageTarget": {
+        "name": "TARJETATRPL3"
+      },
+      "order": 3.0774734151883165
+    },
+    "9184aa37-9b6b-4e92-8607-e58fc0b9ea0c": {
+      "id": "9184aa37-9b6b-4e92-8607-e58fc0b9ea0c",
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "rotation": [
+        0.024892081698314784,
+        -0.7004822893139733,
+        0.712815956251941,
+        -0.0244613805581844
+      ],
+      "scale": [
+        0.7000000000000003,
+        0.7000000000000003,
+        0.7000000000000003
+      ],
+      "geometry": null,
+      "material": null,
+      "parentId": "55420e6f-7646-4d3b-a91f-10c4ae0f7083",
       "components": {},
       "gltfModel": {
         "src": {
@@ -194,7 +421,8 @@
         "loop": true
       },
       "name": "chitoBackflip.glb",
-      "order": 1.9773679786578515
+      "order": 7.33742531344463,
+      "hidden": false
     }
   },
   "spaces": {
